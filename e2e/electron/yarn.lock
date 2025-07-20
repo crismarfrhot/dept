@@ -3313,7 +3313,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.0.2":
+"chalk@npm:^4.0.0, chalk@npm:^4.0.2, chalk@npm:~4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -3462,10 +3462,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "commander@npm:5.1.0"
-  checksum: 0b7fec1712fbcc6230fcb161d8d73b4730fa91a21dc089515489402ad78810547683f058e2a9835929c212fead1d6a6ade70db28bbb03edbc2829a9ab7d69447
+"commander@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "commander@npm:12.1.0"
+  checksum: 68e9818b00fc1ed9cdab9eb16905551c2b768a317ae69a5e3c43924c2b20ac9bb65b27e1cab36aeda7b6496376d4da908996ba2c0b5d79463e0fb1e77935d514
   languageName: node
   linkType: hard
 
@@ -3778,7 +3778,7 @@ __metadata:
     eslint: ^9.7.0
     eslint-config-prettier: ^9.1.0
     eslint-plugin-prettier: ^5.2.1
-    find-process: ^1.4.4
+    find-process: ^2.0.0
     fkill: ^9.0.0
     get-port: ^7.1.0
     got: ^14.4.1
@@ -4298,16 +4298,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-process@npm:^1.4.4":
-  version: 1.4.7
-  resolution: "find-process@npm:1.4.7"
+"find-process@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "find-process@npm:2.0.0"
   dependencies:
-    chalk: ^4.0.0
-    commander: ^5.1.0
-    debug: ^4.1.1
+    chalk: ~4.1.2
+    commander: ^12.1.0
+    loglevel: ^1.9.2
   bin:
-    find-process: bin/find-process.js
-  checksum: 1953e6a16af86ec033d613ddfcac24f68b7ca6cc7d7aadc037ede4ccad4f03c5571d3c95165842475bfa9432120be5c995cc234c9c02726fc886ac6cd85ece3b
+    find-process: dist/bin/find-process.js
+  checksum: c9c627a6afff66c0e55fa8cd7b18f35c6dae1177ef28c985b71efb41f969bdc4d4a896bf4432839b387be0f50e8c2a0434fc5f1d0d3db94ace070a3d63f8a290
   languageName: node
   linkType: hard
 
@@ -5769,6 +5769,13 @@ __metadata:
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
   checksum: ad580b4bdbb7ca1f7abf7e1bce63a9a0b98e370cf40194b03380a46b4ed799c9573029599caebc1b14e3f24b111aef72b96674a56cfa105e0f5ac70546cdc005
+  languageName: node
+  linkType: hard
+
+"loglevel@npm:^1.9.2":
+  version: 1.9.2
+  resolution: "loglevel@npm:1.9.2"
+  checksum: 896c67b90a507bfcfc1e9a4daa7bf789a441dd70d95cd13b998d6dd46233a3bfadfb8fadb07250432bbfb53bf61e95f2520f9b11f9d3175cc460e5c251eca0af
   languageName: node
   linkType: hard
 
