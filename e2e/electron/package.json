@@ -37,7 +37,7 @@
     "got": "^14.4.1",
     "mkdirp": "^3.0.1",
     "puppeteer": "^22.13.1",
-    "puppeteer-core": "^22.13.1"
+    "puppeteer-core": "^24.14.0"
   },
   "scripts": {
     "test:e2e": "yarn run test:e2e:packaged",
